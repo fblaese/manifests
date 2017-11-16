@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="gh" fetch="http://github.com/TheScarastic"/>
+  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="lineage-15.0" remote="gh"/>
+  <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo" remote="gh"/>
+  <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="lineage-15.0" remote="gh"/>
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-15.0" remote="gh"/>
+</manifest>
