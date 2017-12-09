@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <!-- Remotes -->
   <remote name="TheScarastic" fetch="http://github.com/TheScarastic"/>
   <remote name="lineage" fetch="http://github.com/LineageOS"/>
   <remote name="bjsiu" fetch="http://github.com/bjsiu"/>
   <remote name="muppets" fetch="http://github.com/TheMuppets"/>
-  <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.0" remote="lineage"/>
+  <remote name="cardinal" fetch="http://github.com/Cardinal-AOSP"/>
+  <remote name="amolamrit" fetch="http://github.com/AmolAmrit"/>
+  
+  <!-- Device Trees -->
   <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="lineage-15.0" remote="TheScarastic"/>
-  <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo" remote="bjsiu"/>
   <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="lineage-15.0" remote="TheScarastic"/>
+  <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.0" remote="lineage"/>
+  
+  <!-- Kernel Source -->
+  <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo" remote="bjsiu"/>
+  
+  <!-- Proprietary Blobs -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-15.0" remote="muppets"/>
+  
+  <!-- Specific Configs -->
+  <project path="hardware/cyanogen" name="AmolAmrit/android_hardware_cyanogen" remote="amolamrit" revision="oreo" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" remote="cardinal" revision="oreo-mr1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" remote="cardinal" revision="oreo-mr1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" remote="cardinal" revision="oreo-mr1-caf-8952" />
+  
 </manifest>
