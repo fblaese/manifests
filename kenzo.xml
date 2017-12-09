@@ -2,7 +2,7 @@
 <manifest>
   
   <!-- Remotes -->
-  <remote name="TheScarastic" fetch="http://github.com/TheScarastic"/>
+  <remote name="thescarastic" fetch="http://github.com/TheScarastic"/>
   <remote name="lineage" fetch="http://github.com/LineageOS"/>
   <remote name="bjsiu" fetch="http://github.com/bjsiu"/>
   <remote name="muppets" fetch="http://github.com/TheMuppets"/>
@@ -10,8 +10,8 @@
   <remote name="amolamrit" fetch="http://github.com/AmolAmrit"/>
   
   <!-- Device Trees -->
-  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="lineage-15.0" remote="TheScarastic"/>
-  <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="lineage-15.0" remote="TheScarastic"/>
+  <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="lineage-15.0" remote="thescarastic"/>
+  <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="lineage-15.0" remote="thescarastic"/>
   <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.0" remote="lineage"/>
   
   <!-- Kernel Source -->
