@@ -26,6 +26,4 @@
   <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" remote="cardinal" revision="oreo-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" remote="cardinal" revision="oreo-caf-8952" />
   
-  <!-- Sync Fix -->
-  <remove-project name="hardware/qcom/audio-caf/msm8952" />
 </manifest>
