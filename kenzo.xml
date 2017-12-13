@@ -4,7 +4,7 @@
   <!-- Remotes -->
   <remote name="thescarastic" fetch="http://github.com/TheScarastic" />
   <remote name="lineage" fetch="http://github.com/LineageOS" />
-  <remote name="bjsiu" fetch="http://github.com/bjsiu" />
+  <remote name="manson" fetch="http://github.com/mansiu3000" />
   <remote name="muppets" fetch="http://github.com/TheMuppets" />
   <remote name="cardinal" fetch="http://github.com/Cardinal-AOSP" />
   <remote name="amolamrit" fetch="http://github.com/AmolAmrit" />
@@ -15,7 +15,7 @@
   <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.0" remote="lineage" />
   
   <!-- Kernel Source -->
-  <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo" remote="bjsiu" />
+  <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo" remote="manson" />
   
   <!-- Proprietary Blobs -->
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-15.0" remote="muppets" />
