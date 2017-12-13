@@ -5,7 +5,7 @@ For Redmi Note 3 LineageOS 15.0 testing build (not tested)
 ```
 TheScarastic (Abhishek987)
 LineageOS
-bjsiu (Mansiu3000, Me)
+Mansiu3000 (Me)
 TheMuppets
 Cardinal-AOSP
 AmolAmrit
