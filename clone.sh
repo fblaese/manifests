@@ -11,3 +11,4 @@ git clone --depth=1 https://github.com/Cardinal-AOSP/hardware_qcom_media -b oreo
 git clone --depth=1 https://github.com/Cardinal-AOSP/hardware_qcom_display -b oreo-caf-8952 hardware/qcom/display-caf/msm8952
 git clone --depth=1 https://github.com/LineageOS/android_packages_resources_devicesettings -b lineage-15.0 packages/resources/devicesettings
 git clone --depth=1 https://github.com/LineageOS/android_external_bson -b cm-14.1 external/bson
+git clone --depth=1 https://github.com/LineageOS/android_device_qcom_common -b lineage-15.0 device/qcom/common
