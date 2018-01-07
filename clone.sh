@@ -25,4 +25,6 @@ git clone --depth=1 https://github.com/LineageOS/android_external_ant-wireless_a
   <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="oreo-mr1" remote="rn3-los15"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="lineage-15.1" remote="themuppets"/>
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio-caf-msm8952" revision="o2-8952" remote="nitrogen"/>
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media-caf-msm8952" revision="o2-8952" remote="nitrogen"/>
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display-caf-msm8952" revision="o2-8952" remote="nitrogen"/>
 </manifest>
