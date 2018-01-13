@@ -1,5 +1,5 @@
-# manifests_kenzo
-For Redmi Note 3 LineageOS 15.0 testing build (not tested) 
+# manifests
+For Redmi Note 3 Snapdragon LineageOS 15.1 (not tested) 
 
 # Credits
 ```
