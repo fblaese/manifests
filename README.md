@@ -7,7 +7,6 @@ TheScarastic (Abhishek987)
 LineageOS
 Mansiu3000 (Me)
 TheMuppets
-NitrogenOS
-AmolAmrit
+Cardinal-AOSP
 Irvin016 (For scripts editing)
 ```
