@@ -3,10 +3,6 @@
   <remote name="rn3-los15" fetch="https://github.com/rn3-los15"/>
   <remote name="lineage" fetch="https://github.com/LineageOS"/>
   <remote name="cardinal" fetch="https://github.com/Cardinal-AOSP"/>
-  
-  <remove-project path="hardware/qcom/audio-caf/msm8952" revision="staging/lineage-15.1-caf-8952"/>
-  <remove-project path="hardware/qcom/media-caf/msm8952" revision="staging/lineage-15.1-caf-8952"/>
-  <remove-project path="hardware/qcom/display-caf/msm8952" revision="staging/lineage-15.1-caf-8952"/>
 
   <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="lineage-15.1" remote="rn3-los15"/>
   <project path="device/xiaomi/msm8956-common" name="android_device_xiaomi_msm8956-common" revision="lineage-15.1" remote="rn3-los15"/>
