@@ -13,8 +13,8 @@
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl>DIRECT LINKS HERE</DirectUrl>
-  <HttpUrl>HTTP WEBSITE LINK HERE</HttpUrl>
+  <DirectUrl><![CDATA[https://www.androidfilehost.com/?fid=746010030569951454]]></DirectUrl>
+  <HttpUrl>https://www.androidfilehost.com/?fid=746010030569951454</HttpUrl>
   <!-- What version are you issuing? -->
   <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
