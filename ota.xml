@@ -19,19 +19,19 @@
   <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>MD5 HERE</CheckMD5>
+  <CheckMD5>304f4f2b125d95540df0a6e98411dff0</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">420147739</FileSize>
+  <FileSize type="integer">501426491</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
-  <Developer>DEVELOPER NAMES HERE</Developer>
+  <Developer>LokManSiu</Developer>
   <!-- Your ROM or Developer Website. Can be a personal site or your XDA/forum thread -->
   <!-- OPTIONAL: Enter <Website nil="true" /> to hide this -->
-  <WebsiteURL>WEBSITE LINK HERE</WebsiteURL>
+  <WebsiteURL>https://forum.xda-developers.com/redmi-note-3/development/lineageos-15-1-xiaomi-redmi-note-3-t3739187</WebsiteURL>
   <!-- Your Donate URL -->
   <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
-  <DonateURL>DONATE URL HERE</DonateURL>
+  <DonateURL></DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
   <Changelog></Changelog>
