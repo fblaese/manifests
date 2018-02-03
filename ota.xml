@@ -34,5 +34,14 @@
   <DonateURL></DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog></Changelog>
+  <Changelog>Changinglog:
+30-01-2018
+- Just synced latest lineage 15.1 repos, Notification light bug still fixing...
+
+25-01-2018
+- Fixed flashlight Thanks @t.me/Dinosnore
+- Synced with latest los15.1 sources
+
+22-01-2018
+- Initial release</Changelog>
 </ROM>
