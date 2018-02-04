@@ -6,15 +6,15 @@
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20180204</VersionNumber>
+  <VersionNumber type="integer">20180203</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[https://www.androidfilehost.com/?fid=746010030569951454]]></DirectUrl>
-  <HttpUrl>https://www.androidfilehost.com/?fid=746010030569951454</HttpUrl>
+  <DirectUrl><![CDATA[LINK HERE]]></DirectUrl>
+  <HttpUrl>LINK HERE</HttpUrl>
   <!-- What version are you issuing? -->
   <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
@@ -34,10 +34,7 @@
   <DonateURL></DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>04-02-2018
-- exactly same as 0203 build, for ota testing
-
-03-02-2018
+  <Changelog>03-02-2018
 - Synced with latest los15.1 repos, Fixed poweron battery charging notification led, poweroff still no, maybe unsupported by lineage default... Need to find way later.
 - Added OTA support (Not work today, will on next build, try to use ota app to update yourself and tell me ok or not)
 
