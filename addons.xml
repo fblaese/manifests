@@ -6,10 +6,8 @@
             <name>Opengapps</name> <!-- The name, simples -->
             <description>Google apps for LineageOS</description> <!-- You can use markdown here if you want -->
             <updated-at>2018-02-05</updated-at> <!-- Must be in yyyy-mm-dd format -->
-            <size>9001027</size> <!-- filesize in bytes -->
-            <download-link>
-            LINK HERE
-            </download-link>
+            <size>109733306</size> <!-- filesize in bytes -->
+            <download-link>https://sourceforge.net/projects/rn3-los15/files/Gapps/open_gapps-arm64-8.1-pico-20180119-UNOFFICIAL.zip</download-link>
         </addon>
     </addons>
 </hash>
