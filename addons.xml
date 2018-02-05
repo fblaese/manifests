@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>Opengapps</name> <!-- The name, simples -->
+            <description>Google apps for LineageOS</description> <!-- You can use markdown here if you want -->
+            <updated-at>2018-02-05</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>9001027</size> <!-- filesize in bytes -->
+            <download-link>
+            LINK HERE
+            </download-link>
+        </addon>
+    </addons>
+</hash>
