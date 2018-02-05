@@ -47,4 +47,7 @@
 
 22-01-2018
 - Initial release</Changelog>
+  
+  <AddonCount>1</AddonCount>
+  <AddonsURL>https://raw.githubusercontent.com/rn3-los15/manifests/master/addons.xml</AddonsURL>
 </ROM>
