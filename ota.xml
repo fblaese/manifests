@@ -6,23 +6,23 @@
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20180205</VersionNumber>
+  <VersionNumber type="integer">20180206</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[https://github.com/rn3-los15/manifests/releases/download/20180205/lineage-15.1-20180205-UNOFFICIAL-kenzo.zip]]></DirectUrl>
-  <HttpUrl>https://github.com/rn3-los15/manifests/releases/download/20180205/lineage-15.1-20180205-UNOFFICIAL-kenzo.zip</HttpUrl>
+  <DirectUrl><![CDATA[https://github.com/rn3-los15/manifests/releases/download/20180206/lineage-15.1-20180206-UNOFFICIAL-kenzo.zip]]></DirectUrl>
+  <HttpUrl>https://github.com/rn3-los15/manifests/releases/download/20180206/lineage-15.1-20180206-UNOFFICIAL-kenzo.zip</HttpUrl>
   <!-- What version are you issuing? -->
   <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>f460de60c78f850e7bd49c5f9676ab5f</CheckMD5>
+  <CheckMD5>2a0a8d2d975ed69879e4c041ef1c14c4</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">501286649</FileSize>
+  <FileSize type="integer">501286245</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>LokManSiu</Developer>
@@ -34,7 +34,10 @@
   <DonateURL></DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>05-02-2018
+  <Changelog>06-02-2018
+- Just synced latest los15.1 trees.
+
+05-02-2018
 - Readded f2fs support
 - Merged qcom boost framework from @Dinosnore.
 - Synced latest los15.1 repos
