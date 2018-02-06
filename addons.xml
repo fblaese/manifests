@@ -8,7 +8,7 @@
             <updated-at>2018-02-05</updated-at> <!-- Must be in yyyy-mm-dd format -->
             <size>109733306</size> <!-- filesize in bytes -->
             <download-link>
-            https://sourceforge.net/projects/rn3-los15/files/Gapps/open_gapps-arm64-8.1-pico-20180119-UNOFFICIAL.zip
+            https://github.com/rn3-los15/manifests/releases/download/GAPPS/open_gapps-arm64-8.1-pico-20180119-UNOFFICIAL.zip
             </download-link>
         </addon>
     </addons>
