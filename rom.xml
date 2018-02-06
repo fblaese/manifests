@@ -15,4 +15,5 @@
   <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="lineage"/>
   <project path="device/qcom/common" name="android_device_qcom_common" revision="staging/lineage-15.1" remote="lineage"/>
   <project path="package/apps/OTAUpdates" name="android_package_apps_OTAUpdates" revision="aosp" remote="rn3-los15"/>
+  <remove-project name="package/apps/Updater"/>
 </manifest>
