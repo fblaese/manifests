@@ -14,5 +14,5 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="staging/lineage-15.1" remote="lineage"/>
   <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="lineage"/>
   <project path="device/qcom/common" name="android_device_qcom_common" revision="staging/lineage-15.1" remote="lineage"/>
-  <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" revision="aosp" remote="rn3-los15"/>
+  <project path="packages/apps/OtaUpdater" name="android_packages_apps_OtaUpdater" revision="master" remote="rn3-los15"/>
 </manifest>
