@@ -19,10 +19,10 @@
   <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
-  <CheckMD5>MD5 HERE</CheckMD5>
+  <CheckMD5>33bc3c98f5a7cf9ef9b55d0b90af327c</CheckMD5>
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">420147739</FileSize>
+  <FileSize type="integer">501544974</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
   <Developer>LokManSiu</Developer>
@@ -40,7 +40,7 @@
 * Fixed all the things
 * We even fixed this
 * Don't forget all the awesome features you added</Changelog>
-  <AddonCount>2</AddonCount>
+  <AddonCount>1</AddonCount>
   <AddonsURL>
   https://raw.githubusercontent.com/rn3-los15/manifests/master/addons.xml
   </AddonsURL>
