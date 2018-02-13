@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <!-- Your ROM Name -->
-  <RomName>NAME OF THE ROM</RomName>
-  <VersionName>ROM VERSION</VersionName>
+  <RomName>LineageOS</RomName>
+  <VersionName>15.1</VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
-  <VersionNumber type="integer">20150105</VersionNumber>
+  <VersionNumber type="integer">20180212</VersionNumber>
   <!-- Linking to your files -->
     <!-- <DirectUrl><![CDATA[http://www.example.com?file=file.zip?somethingelse&anotherthing]]></DirectUrl> -->
     <!-- Use the above format if your URL has special characters in then, like an (&) ampersand -->
@@ -16,7 +16,7 @@
   <DirectUrl>DIRECT LINKS HERE</DirectUrl>
   <HttpUrl>HTTP WEBSITE LINK HERE</HttpUrl>
   <!-- What version are you issuing? -->
-  <Android>5.0.1</Android>
+  <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking -->
   <CheckMD5>MD5 HERE</CheckMD5>
@@ -25,19 +25,23 @@
   <FileSize type="integer">420147739</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
-  <Developer>DEVELOPER NAMES HERE</Developer>
+  <Developer>LokManSiu</Developer>
   <!-- Your ROM or Developer Website. Can be a personal site or your XDA/forum thread -->
   <!-- OPTIONAL: Enter <Website nil="true" /> to hide this -->
-  <WebsiteURL>WEBSITE LINK HERE</WebsiteURL>
+  <WebsiteURL>https://forum.xda-developers.com/redmi-note-3/development/lineageos-15-1-xiaomi-redmi-note-3-t3739187</WebsiteURL>
   <!-- Your Donate URL -->
   <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
-  <DonateURL>DONATE URL HERE</DonateURL>
+  <DonateURL></DonateURL>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>### Changelog 20150105
+  <Changelog>### Changelog 20180212
 * Stuff
 * Updated this, or that
 * Fixed all the things
 * We even fixed this
 * Don't forget all the awesome features you added</Changelog>
+  <AddonCount>2</AddonCount>
+  <AddonsURL>
+  
+  </AddonsURL>
 </ROM>
