@@ -13,8 +13,8 @@
     <!-- Enter <DirectUrl nil="true /> or <HttpUrl nil="true /> to indicate you won't be using a type of URL -->
     <!-- HTTP link will open a web page -->
     <!-- Direct Link overrides HTTP link -->
-  <DirectUrl><![CDATA[https://qc3.androidfilehost.com/dl/G_nbR3E5gjfAkU0Y3ICM7A/1518749455/673956719939819578/lineage-15.1-20180212-UNOFFICIAL-kenzo.zip?]]></DirectUrl>
-  <HttpUrl>https://qc3.androidfilehost.com/dl/G_nbR3E5gjfAkU0Y3ICM7A/1518749455/673956719939819578/lineage-15.1-20180212-UNOFFICIAL-kenzo.zip?</HttpUrl>
+  <DirectUrl><![CDATA[https://downloads.sourceforge.net/project/rn3-los15/Rom/lineage-15.1-20180205-UNOFFICIAL-kenzo.zip]]></DirectUrl>
+  <HttpUrl>https://downloads.sourceforge.net/project/rn3-los15/Rom/lineage-15.1-20180205-UNOFFICIAL-kenzo.zip</HttpUrl>
   <!-- What version are you issuing? -->
   <Android>8.1.0</Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
