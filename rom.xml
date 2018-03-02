@@ -14,6 +14,6 @@
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" revision="lineage-15.1" remote="lineage"/>
   <project path="external/bson" name="android_external_bson" revision="cm-14.1" remote="lineage"/>
   <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.1" remote="lineage"/>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" revision="oreo-mr1" remote="cardinal"/>
   <project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" revision="oreo-mr1" remote="rn3-los15"/>
-  <!--<project path="packages/apps/Settings" name="android_packages_apps_Settings" revision="lineage-15.1" remote="rn3-los15"/>-->
 </manifest>
