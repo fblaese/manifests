@@ -2,6 +2,7 @@
 <manifest>
   <remote name="rn3-los15" fetch="https://github.com/rn3-los15"/>
   <remote name="lineage" fetch="https://github.com/LineageOS"/>
+  <remote name="cardinal" fetch="https://github.com/Cardinal-AOSP"/>
   <remote name="nitrogen" fetch="https://github.com/nitrogen-project"/>
 
   <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="lineage-15.1" remote="rn3-los15"/>
