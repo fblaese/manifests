@@ -41,8 +41,4 @@
 ### 12-02-2018
 - Synced latest Los15.1 repos, already ready and not staging
 - Fully clobber and rebuild, some useless system app tests removed</Changelog>
-  <AddonCount>1</AddonCount>
-  <AddonsURL>
-  https://raw.githubusercontent.com/rn3-los15/manifests/master/addons.xml
-  </AddonsURL>
 </ROM>
