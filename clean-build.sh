@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Make a clean build, building dirty after you have had jack issues may result in a failed build
-make clean && make clobber
+make -j4 clean && make -j4 clobber
 
 # Set CCACHE
 export USE_CCACHE=1
