@@ -6,12 +6,11 @@ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -X
 ./prebuilts/sdk/tools/jack-admin start-server
 export LANGUAGE=C
 
-# Sign Build
-export SIGN_BUILD=true
-
-# Compile the build
+# Initialize Environment and Lunch
 . build/envsetup.sh
 breakfast kenzo
+
+# Compile the build
 make -j4 bacon 2>&1 | tee build.log
 
 echo -e ""
