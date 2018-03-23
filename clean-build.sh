@@ -9,6 +9,9 @@ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -X
 ./prebuilts/sdk/tools/jack-admin start-server
 export LANGUAGE=C
 
+# Sign Build
+export SIGN_BUILD=true
+
 # Compile the build
 . build/envsetup.sh
 breakfast kenzo
