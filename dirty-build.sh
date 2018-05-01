@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Remove System temp folders before Dirty override
-rm -rf out/target/product/$PRODUCT_DEVICE/recovery/*
-rm -rf out/target/product/$PRODUCT_DEVICE/root/*
-rm -rf out/target/product/$PRODUCT_DEVICE/system/*
+rm -rf out/target/product/kenzo/recovery/*
+rm -rf out/target/product/kenzo/root/*
+rm -rf out/target/product/kenzo/system/*
 
 # FuckingJack
 ./prebuilts/sdk/tools/jack-admin kill-server
