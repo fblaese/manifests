@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Remove System temp folders before Dirty override
+rm -rf out/target/product/$PRODUCT_DEVICE/recovery/*
+rm -rf out/target/product/$PRODUCT_DEVICE/root/*
+rm -rf out/target/product/$PRODUCT_DEVICE/system/*
+
 # FuckingJack
 ./prebuilts/sdk/tools/jack-admin kill-server
 export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4096m"
