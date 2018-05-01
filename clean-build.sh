@@ -6,6 +6,9 @@ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -X
 ./prebuilts/sdk/tools/jack-admin start-server
 export LANGUAGE=C
 
+# Fix for loadlocale.c Bug on Ubuntu 18.04
+export LC_ALL=C
+
 # Initialize Environment and Lunch
 . build/envsetup.sh
 breakfast kenzo
