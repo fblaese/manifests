@@ -1,5 +1,5 @@
 # manifests
-For Redmi Note 3 Snapdragon LineageOS 15.1 (not tested) 
+For Redmi Note 3 Snapdragon LineageOS 15.1 
 
 # Credits
 ```
