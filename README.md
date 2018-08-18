@@ -3,12 +3,14 @@ For Redmi Note 3 Snapdragon LineageOS 15.1
 
 # Credits
 ```
-TheScarastic (Abhishek987)
-LineageOS
-Mansiu3000 (Me)
-TheMuppets
-Cardinal-AOSP
+LokManSiu (Me)
+TheScarastic (Abhishek987, for kernel commits)
+TheStrechh (Carlos Arriaga, Teammate)
+Kashif Minhaj (Teammate)
+Mokee (For base tree)
 Irvin016 (For scripts editing)
+Xiaomi and Qualcomm CAF Project (For original kernel sources and blobs)
+Sony (For Xperia X ported blobs)
 ```
 # How to Build
 ```
